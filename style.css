@@ -1,0 +1,90 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0;
+    flex: 1;
+}
+
+.side-section {
+    flex: 1;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_box {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    max-height: 100%;
+    overflow-y: auto;
+    text-align: center;
+}
+
+#tree_box {
+    max-height: 100%;
+    flex: 1;
+}
+
+#info_box {
+    max-height: 100%;
+    flex: 1;
+}
+
+.bottom-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.file-upload {
+    margin-right: 20px;
+}
+
+#uploadedFile {
+    width: 100px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+a {
+    display: none;
+}
